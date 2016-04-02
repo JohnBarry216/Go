@@ -1,19 +1,17 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"log"
-	"bufio"
 	"os"
 )
 
 /**
  * Takes a string input from the user and reverses
- *
- * Dev: John Barry
  */
 func main() {
-	
+
 	var userInput string
 
 	// Ask user to enter a string
@@ -31,13 +29,12 @@ func main() {
 
 }
 
-
 /**
  * takes a string and reverses it
- * @return string 
+ * @return string
  */
 func reverseString(s string) string {
-		
+
 	// convert stirng to an array
 	var orgRunes []rune = []rune(s)
 	var newRunes []rune = make([]rune, len(s))
@@ -47,5 +44,5 @@ func reverseString(s string) string {
 		newRunes[i] = orgRunes[len(s)-1-i]
 	}
 
-	return string(newRunes);
+	return string(newRunes)
 }

@@ -5,10 +5,10 @@ import (
 )
 
 /**
- * Dev: John Barry
+ * Simple Hello World. Nothing special
  */
 func main() {
 
 	// Print Hello World to the command promt
-	fmt.Print("Hello World") 
+	fmt.Print("Hello World")
 }
