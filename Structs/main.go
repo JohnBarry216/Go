@@ -64,7 +64,7 @@ func parseUserInput(userInput string) (int, int) {
 }
 
 /**
- * define rect
+ * define rect struct
  */
 type rect struct {
 	width  int
